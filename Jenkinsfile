@@ -18,10 +18,10 @@ pipeline {
             }
         }
 
-        stage ('Build'){
+        /*stage ('Build'){
             steps {
                 sh 'npm run build'
             }
-        }
+        }*/
     }
 }
