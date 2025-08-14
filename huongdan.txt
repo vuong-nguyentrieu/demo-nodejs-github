@@ -32,3 +32,5 @@ kiểm tra
 Tạo prjoct trên Jenkins
 
 - thêm file JenKinsfile
+- push to git
+ß

@@ -1,5 +1,7 @@
 pipeline {
-    tools {}
+    tools {
+        nodejs 'NodeJS'
+    }
 
     stages{
         stage ('Checkout'){
