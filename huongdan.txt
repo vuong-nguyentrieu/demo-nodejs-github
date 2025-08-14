@@ -1,3 +1,5 @@
+Bước 1: Chuẩn bị source Nodejs
+
 - npm int
 - npm install express --save
 vs code: control + i
@@ -10,3 +12,23 @@ vs code: control + i
 - tạo folder test và file test.json
 - npm test
 - npm run build
+
+Bước 2: Chuẩn bị repository trên git
+- Mở terminal
+- git config --global user.name 'Ten'
+- git config --global user.email 'Email'
+- Login with github
+
+tạo git trên vscode
+- git init
+
+kiểm tra 
+- git status
+- git add .
+- git commit -m 'first commit'
+- git remote add origin https://github.com/vuong-nguyentrieu/demo-nodejs-github.git
+- git push -u origin main
+
+Tạo prjoct trên Jenkins
+
+- thêm file JenKinsfile
