@@ -1,0 +1,12 @@
+- npm int
+- npm install express --save
+vs code: control + i
+- tạo file index.js
+- mac command + i
+- generate web application helloword with server express on port 3000
+- run node: node index.js
+- chỉnh file package.json
+- cài mocha: npm install --save-dev mocha
+- tạo folder test và file test.json
+- npm test
+- npm run build
