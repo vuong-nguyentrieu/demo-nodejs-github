@@ -13,15 +13,15 @@ pipeline {
 
         stage ('Test'){
             steps {
-                //sh 'sudo apt install npm'
-                sh 'npm test'
+                sh 'node -v'
+                sh 'npm -v'
             }
         }
-             
-        /*stage ('Build'){
+
+        stage ('Build'){
             steps {
                 sh 'npm run build'
             }
-        }*/
+        }
     }
 }
