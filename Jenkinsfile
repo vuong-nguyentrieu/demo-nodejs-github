@@ -21,7 +21,7 @@ pipeline {
         stage ('Build'){
              {
                 sh 'npm run build'
-                echo 'Build completed successfully!'
+                
             }
         }
     }
